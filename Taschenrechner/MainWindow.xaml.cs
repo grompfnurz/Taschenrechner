@@ -24,5 +24,15 @@ namespace Taschenrechner
         {
             InitializeComponent();
         }
+
+        private void TB_C_Click(object sender, RoutedEventArgs e)
+        {
+            TB_zahlenFeld.Text = "0";
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            TB_zahlenFeld.Text += "1";
+        }
     }
 }
