@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Taschenrechner"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="300
-        " ResizeMode="NoResize" Background="#FF1A1A19">
+        Title="ABAKUS x42" Height="450" Width="300
+        " ResizeMode="NoResize" Background="#FF1A1A19" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="150"></RowDefinition>
@@ -24,25 +24,25 @@
             <ColumnDefinition></ColumnDefinition>
 
         </Grid.ColumnDefinitions>
-        <Button Content="0" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="1" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="1" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Click="Button_Click"/>
-        <Button Content="2" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="1" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="3" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="2" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="4" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="5" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="1" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="6" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="2" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="7" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="8" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Grid.Column="1"/>
-        <Button Content="9" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Grid.Column="2"/>
-        <Button Content="=" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF327682" Foreground="White" FontSize="24"/>
+        <Button x:Name="TB_0" Content="0" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="1" Background="Black" Foreground="White" FontSize="24" Click="TB_0_Click"/>
+        <Button x:Name="TB_1" Content="1" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Click="TB_1_Click"/>
+        <Button x:Name="TB_2" Content="2" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="1" Background="Black" Foreground="White" FontSize="24" Click="TB_2_Click"/>
+        <Button x:Name="TB_3" Content="3" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="2" Background="Black" Foreground="White" FontSize="24" Click="TB_3_Click"/>
+        <Button x:Name="TB_4" Content="4" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Click="TB_4_Click"/>
+        <Button x:Name="TB_5" Content="5" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="1" Background="Black" Foreground="White" FontSize="24" Click="TB_5_Click"/>
+        <Button x:Name="TB_6" Content="6" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="2" Background="Black" Foreground="White" FontSize="24" Click="TB_6_Click"/>
+        <Button x:Name="TB_7" Content="7" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Click="TB_7_Click"/>
+        <Button x:Name="TB_8" Content="8" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Grid.Column="1" Click="TB_8_Click"/>
+        <Button x:Name="TB_9" Content="9" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Grid.Column="2" Click="TB_9_Click"/>
+        <Button x:Name="TB_Gleich" Content="=" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF327682" Foreground="White" FontSize="24" Click="TB_Gleich_Click"/>
         <Button Content="," HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="2" Background="Black" Foreground="White" FontSize="24"/>
         <Button Content="+/-" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="+" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24"/>
+        <Button x:Name="TB_Plus" Content="+" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24" Click="TB_Plus_Click"/>
         <Button Content="-" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24"/>
         <Button Content="x" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24"/>
         <Button Content=":" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24"/>
-        <Button Content="%" HorizontalAlignment="Center" VerticalAlignment="Center" Height="57" Width="74" Background="#FF212121" Foreground="White" FontSize="24" Grid.Row="1"/>
-        <Button Content="SdL" HorizontalAlignment="Center" VerticalAlignment="Center" Height="57" Width="74" Background="#FF212121" Foreground="White" FontSize="24" Grid.Row="1" Grid.Column="1"/>
+        <Button x:Name="TB_Prozent" Content="%" HorizontalAlignment="Center" VerticalAlignment="Center" Height="57" Width="74" Background="#FF212121" Foreground="White" FontSize="24" Grid.Row="1"/>
+        <Button x:Name="TB_SdL" Content="SdL" HorizontalAlignment="Center" VerticalAlignment="Center" Height="57" Width="74" Background="#FF212121" Foreground="White" FontSize="24" Grid.Row="1" Grid.Column="1" Click="TB_SdL_Click_1"/>
         <Button x:Name="TB_C" Content="C" HorizontalAlignment="Center" VerticalAlignment="Center" Height="57" Width="74" Background="#FF212121" Foreground="White" FontSize="24" Grid.Column="2" Grid.Row="1" Click="TB_C_Click"/>
         <TextBox x:Name="TB_zahlenFeld" Grid.ColumnSpan="4" HorizontalAlignment="Center" Margin="0,36,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" Height="75" HorizontalContentAlignment="Right" FontSize="45" Background="#FF212020" Foreground="#FF00AD19" MinWidth="10" TextAlignment="Right" Padding="0,12,3,0" FontFamily="OCR A Extended" Panel.ZIndex="-6"/>
 
