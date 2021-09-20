@@ -28,15 +28,15 @@
         <Button Content="0" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="1" Background="Black" Foreground="White" FontSize="24"/>
         <Button Content="Button" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="2"/>
         <Button Content="Button" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3"/>
-        <Button Content="0" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="0" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="1" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="0" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="2" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="0" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="0" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="1" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="0" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="2" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="0" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24"/>
-        <Button Content="0" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Grid.Column="1"/>
-        <Button Content="0" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Grid.Column="2"/>
+        <Button Content="1" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24"/>
+        <Button Content="2" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="1" Background="Black" Foreground="White" FontSize="24"/>
+        <Button Content="3" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="2" Background="Black" Foreground="White" FontSize="24"/>
+        <Button Content="4" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24"/>
+        <Button Content="5" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="1" Background="Black" Foreground="White" FontSize="24"/>
+        <Button Content="6" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="2" Background="Black" Foreground="White" FontSize="24"/>
+        <Button Content="7" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24"/>
+        <Button Content="8" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Grid.Column="1"/>
+        <Button Content="9" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24" Grid.Column="2"/>
 
     </Grid>
 </Window>
