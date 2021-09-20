@@ -181,19 +181,83 @@ namespace Taschenrechner
             else
             {
                 TB_zahlenFeld.Text += "+";
+                TB_Operator.Text = "+";
                 
-    }
+            }
         }
 
         private void TB_Gleich_Click(object sender, RoutedEventArgs e)
         {
-            string[] zahlen = TB_zahlenFeld.Text.Split('+');
+            string[] zahlen = TB_zahlenFeld.Text.Split(TB_Operator.Text);
             int zahl1 = Convert.ToInt32(zahlen[0]);
             int zahl2 = Convert.ToInt32(zahlen[1]);
-            int erg = zahl1 + zahl2;
+            int erg=0;
+            if (TB_Operator.Text == "+")
+            {
+                erg = zahl1 + zahl2;
+            }
+            else if (TB_Operator.Text=="-")
+            {
+                erg = zahl1 - zahl2;
+            }
+            else if (TB_Operator.Text=="*")
+            {
+                erg = zahl1 * zahl2;
+            }
+            else if (TB_Operator.Text == "/")
+            {
+                erg = zahl1 / zahl2;
+            }
+
+
+
             string ergebnis = (erg.ToString());
             TB_zahlenFeld.Text = ergebnis;
             
+        }
+
+        private void TB_Minus_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (TB_zahlenFeld.Text == "0")
+            {
+                TB_zahlenFeld.Text = "0";
+            }
+            else
+            {
+                TB_zahlenFeld.Text += "-";
+                TB_Operator.Text = "-";
+
+            }
+        }
+
+        private void TB_Mal_Click(object sender, RoutedEventArgs e)
+        {
+            if (TB_zahlenFeld.Text == "0")
+            {
+                TB_zahlenFeld.Text = "0";
+            }
+            else
+            {
+                TB_zahlenFeld.Text += "*";
+                TB_Operator.Text = "*";
+
+            }
+
+        }
+
+        private void TB_Geteilt_Click(object sender, RoutedEventArgs e)
+        {
+            if (TB_zahlenFeld.Text == "0")
+            {
+                TB_zahlenFeld.Text = "0";
+            }
+            else
+            {
+                TB_zahlenFeld.Text += "/";
+                TB_Operator.Text = "/";
+
+            }
         }
     }
 }

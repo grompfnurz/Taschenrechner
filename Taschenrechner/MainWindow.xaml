@@ -38,13 +38,14 @@
         <Button Content="," HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="2" Background="Black" Foreground="White" FontSize="24"/>
         <Button Content="+/-" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="57" Width="74" Background="Black" Foreground="White" FontSize="24"/>
         <Button x:Name="TB_Plus" Content="+" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24" Click="TB_Plus_Click"/>
-        <Button Content="-" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24"/>
-        <Button Content="x" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24"/>
-        <Button Content=":" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24"/>
+        <Button x:Name="TB_Minus" Content="-" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24" Click="TB_Minus_Click"/>
+        <Button x:Name="TB_Mal" Content="x" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24" Click="TB_Mal_Click"/>
+        <Button x:Name="TB_Geteilt" Content=":" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="57" Width="74" Grid.Column="3" Background="#FF212121" Foreground="White" FontSize="24" Click="TB_Geteilt_Click"/>
         <Button x:Name="TB_Prozent" Content="%" HorizontalAlignment="Center" VerticalAlignment="Center" Height="57" Width="74" Background="#FF212121" Foreground="White" FontSize="24" Grid.Row="1"/>
         <Button x:Name="TB_SdL" Content="SdL" HorizontalAlignment="Center" VerticalAlignment="Center" Height="57" Width="74" Background="#FF212121" Foreground="White" FontSize="24" Grid.Row="1" Grid.Column="1" Click="TB_SdL_Click_1"/>
         <Button x:Name="TB_C" Content="C" HorizontalAlignment="Center" VerticalAlignment="Center" Height="57" Width="74" Background="#FF212121" Foreground="White" FontSize="24" Grid.Column="2" Grid.Row="1" Click="TB_C_Click"/>
         <TextBox x:Name="TB_zahlenFeld" Grid.ColumnSpan="4" HorizontalAlignment="Center" Margin="0,36,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" Height="75" HorizontalContentAlignment="Right" FontSize="45" Background="#FF212020" Foreground="#FF00AD19" MinWidth="10" TextAlignment="Right" Padding="0,12,3,0" FontFamily="OCR A Extended" Panel.ZIndex="-6"/>
+        <TextBox x:Name="TB_Operator" HorizontalAlignment="Left" Margin="-197,28,0,0" Grid.Row="1" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
